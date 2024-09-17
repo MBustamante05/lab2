@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mi Sitio Web</title>
+    <!-- Vincular Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Vincular estilos CSS personalizados -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  </head>
+  <body>
+    <!-- Contenido aquí -->
+     <!-- NAV - BAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary text-white ">
+      <div class="container-fluid">
+        <a class="navbar-brand font-weight-bolder" href="#">Gallery</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-
+        expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto w-100 d-flex justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Galería</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Carrusel de imágenes -->
+    <div class="container mt-5 mb-5">
+      <h1>Exposición realistica</h1>
+      <div class="row">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/monumento.jpg" class="d-block w-100" alt="Monumento">
+            </div>
+            <div class="carousel-item">
+              <img src="img/plantas.jpg" class="d-block w-100" alt="Plantas">
+            </div>
+            <div class="carousel-item">
+              <img src="img/puente.jpg" class="d-block w-100" alt="Puente">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- FOTOS CARD -->
+    <div class="container fotos-card">
+      <h1 class="mb-4">Más imágenes</h1>
+      <div class="card-deck row d-flex justify-content-around ">
+        <div class="card col-3 pt-3">
+          <img src="img/monumento.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card col-3 pt-3">
+          <img src="img/plantas.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card col-3 pt-3">
+          <img src="img/puente.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        
+      </div>
+      <!-- 3 imágenes más -->
+      <div class="card-deck row d-flex justify-content-around pt-4">
+        <div class="card col-3 pt-3">
+          <img src="img/monumento.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card col-3 pt-3">
+          <img src="img/plantas.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card col-3 pt-3">
+          <img src="img/puente.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <!-- CREACIÓN FORMULARIO -->
+    <div class="container mt-5">
+      <h2>Contacto</h2>
+      <form>
+        <div class="row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Contraseña</label>
+            <input type="password" class="form-control" id="inputPassword4">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="inputAddress">Dirección</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+
+        <div class="row">
+          <div class="form-group col-md-6">
+            <label for="inputCity">Ciudad</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputState">Departamento</label>
+            <select id="inputState" class="form-control">
+              <option selected>Elegir...</option>
+              <option>Valle del Cauca</option>
+              <option>Cauca</option>
+              <option>Amazonas</option>
+              <option>Cundinamarca</option>
+
+            </select>
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputZip">Zip</label>
+            <input type="text" class="form-control" id="inputZip">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Recuerdame
+            </label>
+          </div>
+        </div>
+        
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </form>
+    </div>
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white mt-5 p-4">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-6  d-block">
+                  <h5>Redes Sociales</h5>
+                  <!-- ICONS-->
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-whatsapp"></i>
+                  <i class="fa-brands fa-x-twitter"></i>
+                  <i class="fa-brands fa-telegram"></i>
+                  <i class="fa-brands fa-youtube"></i>
+                  <i class="fa-brands fa-tiktok"></i>
+              </div>
+          
+              <div class="col-md-6">
+                    <h5>Contacto</h5>
+                    <P>Telefono: (+57) 8792515</P>
+                    <P>Direccion: Cali,Valle del Cauca</P>
+                   <P>Telefono: (+57) 8792515</P>
+              </div>
+          </div>
+      </div>
+  </footer>
+    <!-- Vincular JS de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+  </body>
+</html>
